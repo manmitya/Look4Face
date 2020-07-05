@@ -5,7 +5,7 @@ from collections import OrderedDict
 import numpy as np
 import os
 
-WEIGHTS_PATH = "align" # folder with nets
+WEIGHTS_PATH = "." # folder with nets
 
 class Flatten(nn.Module):
 
